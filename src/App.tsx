@@ -1,11 +1,13 @@
 import { FC } from 'react';
 import './App.css';
-import Dashboard from '~/modules/Dashboard';
+import Menu from '~/modules/Menu/Menu';
 
-const App: FC = () => (
-  <div className='App'>
-    <Dashboard />
-  </div>
-);
+const App: FC = () => {
+  return (
+    <div className='App'>
+      <Menu />
+    </div>
+  );
+};
 
 export default App;
