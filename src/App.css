@@ -22,8 +22,9 @@ html, body {
 }
 
 #root {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
   background: linear-gradient(178deg, #9858b3, #00d4ff, #c49ad5);
   background-size: 600% 600%;
 
