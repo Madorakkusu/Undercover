@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:68% 0%}
+  50%{background-position:33% 100%}
+  100%{background-position:68% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:68% 0%}
+  50%{background-position:33% 100%}
+  100%{background-position:68% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:68% 0%}
+  50%{background-position:33% 100%}
+  100%{background-position:68% 0%}
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(178deg, #9858b3, #00d4ff, #c49ad5);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,6 +84,8 @@ table {
 .App {
   min-height: 100vh;
   min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 .card {
